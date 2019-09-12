@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.top-container {
+  background-image: url("../images/bg-hero-mobile.svg"),
+    url("../images/bg-hero-desktop.svg");
+  margin-top: 0;
+  background-color: #EBFBFF;
+  width: 100%;
+}
+
+.top-content {
+  width: 35%;
+  text-align: left;
+  display: inline-block;
+  top: 200px;
+  position: absolute;
+  left: 50px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.top-logo-img {
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 30px;
+}
+
+.top-try-it-free {
+  width: 20%;
+  position: relative;
+  left: 63em;
+  bottom: 2.5em;
+}
+
+.illustration-mockups-img {
+  width: 52%;
+  position: relative;
+  left: 550px;
+  margin-bottom: 30px;
+}
+
+.middle-container {
+  font-size: 18px;
+}
+
+.middle-feature-row {
+  padding: 70px;
+  text-align: left;
+  line-height: 2;
+  margin: auto 0 auto 0;
+}
+
+.middle-block {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .6);
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+  margin: 30px 70px;
+}
+
+.middle-image-1 {
+  width: 30%;
+  float: right;
+  margin-left: 200px;
+}
+
+.middle-image-2 {
+  width: 30%;
+  float: left;
+  margin-right: 200px;
+}
+
+.middle-image-3 {
+  width: 30%;
+  float: right;
+  margin-left: 200px;
+}
+
+.middle-addtional-details {
+  width: 40%;
+  position: relative;
+  top: 50px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .6);
+  padding: 30px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bottom-container {
+  background-color: #00252E;
+  color: white;
+}
+
+.bottom-logo-img {
+  width: 200px;
+  height: 45px;
+}
+
+.footer-icons {
+  padding: 10px;
+}
+
+.footer-content {
+  padding: 10px;
+}
+
+.footer-content-2 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer-all-rows-col-1 {
+  padding: 0 20px 0 0;
+}
+
+.footer-all-rows-col-2 {
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-sub-container-1 {
+  width: 33.3%;
+  display: inline-block;
+  margin: 100px 20px 20px 50px;
+}
+
+.bottom-sub-container-2 {
+  width: 30%;
+  display: inline;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+.bottom-sub-container-3 {
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 150px;
+  right: 50px;
+}
+
+.bottom-img {
+  width: 50px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.bottom-link {
+  padding: 5px;
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: right;
+  padding: 50px;
+}
+
+.button-1 {
+  -moz-box-shadow: inset 0 1px 0 0 #f5009b;
+  -webkit-box-shadow: inset 0 1px 0 0 #f5009b;
+  box-shadow: inset 0 1px 0 0 #f5009b;
+  background-color: #ff00a2;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  height: 40px;
+  line-height: 40px;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0 #cc0081;
+}
+
+.button-1:hover {
+  background-color: #fa009e;
+}
+
+.button-1:active {
+  position: relative;
+  top: 1px;
+}
+
+/* This button was generated using CSSButtonGenerator.com*/
+.button-2 {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .6);
+  box-shadow: inset 0 1px 4px 0 #dedede;
+  background-color: #FFFFFF;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 0;
+  display: inline-block;
+  color: #1c031c;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  height: 40px;
+  line-height: 40px;
+  width: 170px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0 #fafafa;
+}
+
+.button-2:hover {
+  background-color: #fffcfe;
+}
+
+.button-2:active {
+  position: relative;
+  top: 1px;
+}
+
+/* This button was generated using CSSButtonGenerator.com */

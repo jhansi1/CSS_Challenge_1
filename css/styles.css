@@ -16,37 +16,44 @@ h1, h2, h3 {
   margin-top: 0;
   background-color: #EBFBFF;
   width: 100%;
+  position: relative;
+  padding-bottom: 45%;
+
 }
 
 .top-content {
   width: 35%;
   text-align: left;
-  display: inline-block;
-  top: 200px;
+  /* display: inline-block; */
   position: absolute;
   left: 50px;
-  font-size: 18px;
+  top: 140px;
+  font-size: 120%;
   line-height: 1.25;
 }
 
 .top-logo-img {
-  margin-top: 40px;
-  margin-left: 50px;
   height: 30px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
 }
 
 .top-try-it-free {
   width: 20%;
-  position: relative;
-  left: 63em;
-  bottom: 2.5em;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  /* left: 63em;
+  bottom: 2.5em; */
 }
 
 .illustration-mockups-img {
-  width: 52%;
-  position: relative;
-  left: 550px;
-  margin-bottom: 30px;
+  width: 45%;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+
 }
 
 .middle-container {
@@ -138,7 +145,7 @@ h1, h2, h3 {
 }
 
 .bottom-sub-container-2 {
-  width: 30%;
+
   display: inline;
   position: absolute;
   margin-top: 150px;
